@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #1f1f38 ;
+  color: orange;
+
+}
+p,h1,h2,h3,h4,h5,div,button,a{
+  color: tomato;
+}
+
+a:hover,button:hover{
+  color: red;
+}
+
+body {
+  /* cursor: url("./images/cursor.png"), auto; */
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.greenColor {
+  color: green !important;
+}
+.redColor {
+  color: red !important;
+}
